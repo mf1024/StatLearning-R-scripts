@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572526694043.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3EC22D5A",
+    "lastKnownWriteTime" : 1572528469,
+    "last_content_update" : 1572528688032,
+    "path" : "~/ai/ml_projects/StatLearning_R/stats_learning_r/R_introduction.R",
+    "project_path" : "R_introduction.R",
+    "properties" : {
+        "cursorPosition" : "44,0",
+        "scrollLine" : "25",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
