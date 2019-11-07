@@ -70,5 +70,23 @@ sum(Boston$chas == 1.0)
 
 # (g)
 summary(Boston$medv)
-X = Boston[,,Boston$medv < 6]
-X
+min(Boston$medv)
+Boston[Boston$medv == min(Boston$medv),]$tax
+
+#crim zn indus chas   nox    rm age    dis rad tax ptratio  black lstat medv
+#399 38.3518  0  18.1    0 0.693 5.453 100 1.4896  24 666    20.2 396.90 30.59    5
+#406 67.9208  0  18.1    0 0.693 5.683 100 1.4254  24 666    20.2 384.97 22.98    5
+
+summary(Boston)
+#There are two suburbs with minimum medv value - 5.0 . 
+plot(Boston$crim)
+#These two suburbs are very high in crime, compared to the mean of 3.6
+#For both of the entries age is maximum in the dataset - 100 
+#Distance to the employment centers "dis" is very close to the minimum of the dataset
+#tax is well above the mean
+
+#(h)
+Boston$rm >= 5.0
+sum(Boston$rm > 7.0) # 64
+sum(Boston$rm > 8.0) # 13
+
